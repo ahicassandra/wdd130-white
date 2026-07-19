@@ -295,3 +295,37 @@ footer {
     height: 300px;
   }
 }
+
+#wrap{
+  border:solid;
+  border-color: black;
+  font: #ffff;
+  text-align: center;
+  border-width: 50px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 90em;
+  height: 70em;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+}
+.box{
+  border: solid black;
+  text-align: center;
+  border: solid;
+  border-color: #fcc72a;
+  background-color: white;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.box:nth-child(1){
+  grid-column: span 2;
+    aspect-ratio: 2/1;
+}
